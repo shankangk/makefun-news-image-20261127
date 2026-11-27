@@ -2,7 +2,8 @@
 // The poster (entry.png) was composed for this competition: three AI-generated editorial
 // illustrations (an air-defence installation at dusk in Kuwait, a diplomatic
 // summit hall, and New Zealand's parliament buildings in Wellington) with all text rendered in PIL, so no letter is ever
-// AI-garbled. The program itself only copies that image to /output/entry.png,
+// AI-garbled. The poster is 1024x1024 and under the 1 MiB cap (542,356 bytes).
+// The program itself only copies that image to /output/entry.png,
 // deterministically, with no network and no randomness.
 // After copying it checks the output is byte-identical to the source (same size and
 // SHA-256) and a valid 1024x1024 PNG, so a truncated or corrupt copy fails loudly instead of
